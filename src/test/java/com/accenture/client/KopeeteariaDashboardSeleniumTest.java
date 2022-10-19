@@ -9,8 +9,8 @@ import org.testng.Assert;
 class KopeeteariaDashboardSeleniumTest {
 	
 	private ChromeDriver driver;
-	private String baseUrl = "http://localhost:4200/";
-
+	//private String baseUrl = "http://localhost:4200/";
+	private String baseUrl = "http://localhost:8100/kopeeteariareactv1/";
 	
 	@BeforeClass
 	public void setup() throws InterruptedException {
